@@ -1,0 +1,36 @@
+{
+  "name": "maximum",
+  "version": "1.0.0",
+  "description": "Serverless REST API For Personal Library",
+  "main": "handler.js",
+  "scripts": {
+    "dev": "serverless offline start --skipCacheInvalidation"
+  },
+  "keywords": [
+    "serverless",
+    "aws",
+    "rest",
+    "api",
+    "mongo",
+    "library",
+    "maximum"
+  ],
+  "author": "Narek Keryan <narek.keryan@gmail.com> (http://nkgdev.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narekkeryan/maximum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/narekkeryan/maximum/issues"
+  },
+  "homepage": "https://github.com/narekkeryan/maximum#readme",
+  "devDependencies": {
+    "serverless-offline": "^3.25.4"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.1.4"
+  }
+}

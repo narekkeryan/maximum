@@ -1,0 +1,24 @@
+service: serverless-maximum
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+
+functions:
+  createAuthor:
+    handler: handler.createAuthor
+    events:
+      - http:
+          path: author
+          method: post
+          cors: true
+  authors:
+    handler: handler.authors
+    events:
+      - http:
+          path: authors
+          method: get
+          cors: true
+
+plugins:
+  - serverless-offline

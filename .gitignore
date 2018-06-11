@@ -1,0 +1,12 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+# project files
+.idea
+
+# keys and passwords
+variables.env
