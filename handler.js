@@ -13,7 +13,6 @@ class Library {
         } catch (error) {
             callback(null, { statusCode: 400, body: error })
         }
-        // TODO: ADD MULTIPLE
     }
 
     static async authors(event, context, callback) {
